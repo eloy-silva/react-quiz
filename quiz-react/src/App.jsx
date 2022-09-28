@@ -1,6 +1,7 @@
 
 import { Fragment } from 'react'
-import './App.js'
+import Welcome from './components/Welcome/index.jsx'
+import { Title } from './components/Welcome/styles.js';
 import GlobalStyle from  './styles/globalStyles.js'
 
 function App() {
@@ -9,10 +10,11 @@ function App() {
   return (
     <Fragment>
     <GlobalStyle/>
-    <h1>Quiz App</h1>
+    <Title>React Quiz</Title>
+    <Welcome/>
  
     </Fragment>
   )
 }
 
-export default App
+export default App;
